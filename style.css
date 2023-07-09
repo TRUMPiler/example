@@ -1,0 +1,56 @@
+table {
+  border-collapse: collapse;
+  width:60%;
+  margin:5px auto;
+  border: 2px solid black;
+}
+
+th, td {
+  text-align: center;
+  padding:9px;
+  
+}
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+tr:nth-child(odd){background-color:#000000;color:white}
+th {
+  background-color: #04AA6D;
+  color: white;
+}
+select {
+  width: 50%;
+  padding: 16px 20px;
+  border:dotted;
+  border-radius: 4px;
+  background-color: white;
+}
+input[type = submit] {
+  background-color: green;
+  border: none;
+  text-decoration: none;
+  color: white;
+  padding: 20px 20px;
+  margin: 20px 20px;
+  cursor: pointer;
+}
+input[type = Reset] {
+  background-color: red;
+  border: none;
+  text-decoration: none;
+  color: white;
+  padding: 20px 20px;
+  margin: 20px 20px;
+  cursor: pointer;
+}
